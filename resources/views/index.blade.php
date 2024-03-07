@@ -13,7 +13,6 @@
                 'resources/css/app.css',
                  'resources/css/responsive.css',
                 'resources/css/owl.carousel.min.css',
-                'resources/css/owl.theme.default.css',
                 'resources/css/aos.css',
                 'resources/css/bootstrap.min.css',
                 'resources/css/icofont.min.css',
