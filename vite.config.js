@@ -7,9 +7,9 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/js/app.js',
                 'resources/js/jquery.js',
                 'resources/js/jquery.magnific-popup.min.js',
+                'resources/js/app.js',
                 'resources/js/aos.js',
                 'resources/js/bootstrap.js',
                 'resources/js/bootstrap.min.js',

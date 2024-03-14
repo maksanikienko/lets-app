@@ -52,30 +52,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#home">Возможности</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">О нас</a>
+              <a class="nav-link" href="#about">About Us</a>
             </li>
             <!-- secondery menu start -->
             <li class="nav-item ">
-              <a class="nav-link" href="#text-list">Почему LETS</a>
+              <a class="nav-link" href="#text-list">Why LETS?</a>
 
             </li>
             <!-- secondery menu end -->
 
             <li class="nav-item">
-              <a class="nav-link" href="#how-it-works">Как это работает</a>
+              <a class="nav-link" href="#how-it-works">How it works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reviews">Отзывы</a>
+              <a class="nav-link" href="#reviews">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#interface">Интерфейс</a>
+              <a class="nav-link" href="#interface">Interface</a>
             </li>
             <li class="nav-item">
               <div class="btn_block">
-                <a class="nav-link dark_btn" href="#download">Скачать</a>
+                <a class="nav-link dark_btn" href="#download">Download</a>
                 <div class="btn_bottom"></div>
               </div>
             </li>
@@ -103,26 +103,10 @@
               </span>
             </div>
             <!-- h1 -->
-            <h1>Ваш идеальный компаньон для <span>фитнес-тренировок</span></h1>
-            <!-- p -->
-              <!-- <p>
-                 Lorem Ipsum is simply dummy text of the printing indus orem Ipsum has been the industrys standard dummy text ever since.
-               </p> -->
-<!--
-               <div class="btn_block right_space">
-                   <a href="#" class="btn black_btn ml-0 popup-youtube play-button" data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU"> <i class="icofont-play-alt-1"></i> Watch 2 min demo</a>
-                   <div class="btn_bottom black"></div>
-               </div>
-
-               <div class="btn_block left_space">
-                   <a href="#" class="btn puprple_btn ml-0 ">Start Free Trial</a>
-                   <div class="btn_bottom"></div>
-               </div>
--->
-             </div>
+              <h1>Your ideal companion for <span>fitness workouts</span></h1>
+          </div>
 
            </div>
-
 
          </div>
          <!-- row end -->
@@ -140,7 +124,7 @@
 
         <div class="container">
           <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
-              <h2>Всё-в-одном приложение для фитнес-тренеров и спортсменов</h2>
+              <h2>All-in-one application for fitness trainers and athletes</h2>
           </div>
           <!-- Value Slider Start -->
           <div class="value_slider" data-aos="fade-in" data-aos-duration="1500">
@@ -151,8 +135,8 @@
                       <img  src="{{ Vite::asset('resources/images/biceps-100.png') }}">
                   </div>
                   <div class="text">
-                    <h3>Мои тренировки</h3>
-                      <p><strong>Управляйте своими спортсменами со своего смартфона всегда и везде, 24/7.</strong>
+                    <h3>My workouts</h3>
+                      <p><strong>Manage your athletes from your smartphone anytime, anywhere, 24/7.</strong>
                     </p>
                   </div>
                 </div>
@@ -163,8 +147,8 @@
                     <img src="{{ Vite::asset('resources/images/planning-100.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Расписание занятий</h3>
-                      <p><strong>Планируйте свои тренировки с легкостью, используя ваш личный персональный календарь занятий.</strong>
+                    <h3>Schedule</h3>
+                      <p><strong>Plan your workouts with ease using your personal training calendar.</strong>
                     </p>
                   </div>
                 </div>
@@ -175,8 +159,8 @@
                     <img src="{{ Vite::asset('resources/images/dumbell-100.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Мотивация</h3>
-                      <p><strong>Станьте идеальным тренером с мобильным приложением LETS, где вдохновение — ключ к успешным тренировкам.</strong>
+                    <h3>Motivation</h3>
+                      <p><strong>Become the perfect coach with the LETS mobile app, where inspiration is the key to successful workouts.</strong>
                     </p>
                   </div>
                 </div>
@@ -187,8 +171,8 @@
                     <img src="{{ Vite::asset('resources/images/progres-100.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Отслеживание Прогресса</h3>
-                      <p><strong>Отслеживайте прогресс в режиме реального времени, анализируя данные.</strong>
+                    <h3>Progress Tracking</h3>
+                      <p><strong>Track progress in real-time, analyzing data.</strong>
                     </p>
                   </div>
                 </div>
@@ -199,8 +183,8 @@
                             <img src="{{ Vite::asset('resources/images/size-100.png') }}" alt="image">
                         </div>
                         <div class="text">
-                            <h3>Измерения</h3>
-                            <p><strong>Отмечайте все обьемы атлетов и следите за статистикой </strong>
+                            <h3>Measurements</h3>
+                            <p><strong>Record all athletes' measurements and monitor statistics.</strong>
                             </p>
                         </div>
                     </div>
@@ -211,8 +195,8 @@
                             <img src="{{ Vite::asset('resources/images/kcal-100 .png') }}" alt="image">
                         </div>
                         <div class="text">
-                            <h3>План Питания</h3>
-                            <p><strong>Используйте базу сбалансированных рецептов и продуктов для создания планов питания.</strong>
+                            <h3>Diet Plan</h3>
+                            <p><strong>Utilize a database of balanced recipes and food items to create meal plans.</strong>
                             </p>
                         </div>
                     </div>
@@ -223,8 +207,8 @@
                             <img src="{{ Vite::asset('resources/images/money-100.png') }}" alt="image">
                         </div>
                         <div class="text">
-                            <h3>Оплата в приложении</h3>
-                            <p><strong>Принимайте онлайн-оплату за тренировки через приложение, простота и удобство для ваших клиентов.</strong>
+                            <h3>In-App Payments</h3>
+                            <p><strong>Accept online payments for workouts through the app, providing simplicity and convenience for your clients.</strong>
                             </p>
                         </div>
                     </div>
@@ -245,10 +229,10 @@
     <section id="about" class="about_section row_am">
       <div class="container">
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
-          <span class="title_badge mb-1">О нас</span>
-          <h2>Мы стремимся сделать фитнес <img src="{{ Vite::asset('resources/images/mobileicon.png') }}" alt="image"> доступным увлекательным и эффективным
+          <span class="title_badge mb-1">About Us</span>
+          <h2>We aim to make fitness <img src="{{ Vite::asset('resources/images/mobileicon.png') }}" alt="image"> accessible, engaging, and effective
              <span><img src="{{ Vite::asset('resources/images/usericon.png') }}" alt="image"> </span>
-              <span> для каждого пользователя</span></h2>
+              <span> for every user</span></h2>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
@@ -256,25 +240,25 @@
               <li data-aos="fade-up" data-aos-duration="1500">
                 <div class="text">
                   <p><span class="counter-value" data-count="50">0</span><span>K+</span></p>
-                  <p>Загрузок</p>
+                  <p>Downloads</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-duration="1500">
                 <div class="text">
                   <p><span class="counter-value" data-count="2300">1500</span><span>+</span></p>
-                  <p>Отзывов</p>
+                  <p>Reviews</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-duration="1500">
                 <div class="text">
                   <p><span class="counter-value" data-count="150">0</span><span>+</span></p>
-                  <p>Стран</p>
+                  <p>Countries</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-duration="1500">
                 <div class="text">
                   <p><span class="counter-value" data-count="8000">0 </span><span>+</span></p>
-                  <p>Пользователей</p>
+                  <p>Users</p>
                 </div>
               </li>
             </ul>
@@ -285,9 +269,9 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <p data-aos="fade-up" data-aos-duration="1500"><strong>Вне зависимости от того,
-                являетесь ли вы опытным спортсменом или только начинаете свой путь к здоровью,
-                    LETS предоставляет вам все необходимое для достижения ваших целей.</strong></p>
+            <p data-aos="fade-up" data-aos-duration="1500"><strong>Regardless of whether
+                    you're an experienced athlete or just starting your journey to health,
+                    LETS provides you with everything you need to achieve your goals.</strong></p>
             <div class="video_block" data-aos="fade-up" data-aos-duration="1500">
               <img class="thumbnil" src="{{ Vite::asset('resources/images/applicationvideothumb.png') }}" alt="image">
               <div class="playBtn">
@@ -297,7 +281,7 @@
               </div>
             </div>
             <div class="btn_block" data-aos="fade-up" data-aos-duration="1500">
-              <a href="#" class="btn puprple_btn ml-0">Начни бесплатно</a>
+              <a href="#" class="btn puprple_btn ml-0">Start free</a>
               <div class="btn_bottom"></div>
             </div>
           </div>
@@ -309,55 +293,55 @@
     <!-- Text List flow Section Start -->
     <div id="text-list" class="text_list_section row_am" data-aos="fade-in" data-aos-duration="1500" style="transform: translateY(-50%);">
       <div class="container">
-        <span class="title_badge down_fix">Почему LETS?</span>
+        <span class="title_badge down_fix">Why LETS?</span>
       </div>
       <div class="slider_block">
         <div class="owl-carousel owl-theme" id="text_list_flow">
           <div class="item">
             <div class="text_block">
-              <span>Индивидуальный Подход </span>
+              <span>Individual Approach </span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span>Приятный интерфейс</span>
+              <span>Smart Interface</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span>Аналитика всех процессов </span>
+              <span>Analytics of all processes </span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span> Мотивация в Каждом Элементе</span>
+              <span> Motivation in every element</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span> Отслеживание Прогресса</span>
+              <span>Progress Tracking</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span> Удобство в Оплате и Финансовом Управлении</span>
+              <span>Convenience in Payment and Financial Management</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span>Индивидуально Разработанные Планы Питания</span>
+              <span>Individually Customized Meal Plans</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span>Онлайн поддержка 24/24</span>
+              <span>Online support 24/24</span>
               <span class="mark_star">•</span>
             </div>
           </div>
@@ -373,8 +357,8 @@
         <div class="dotes_blue"><img src="{{ Vite::asset('resources/images/blue_dotes.png') }}" alt="image"></div>
         <div class="container">
           <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
-            <span class="title_badge">Быстро и легко</span>
-            <h2>Как это работает</h2>
+            <span class="title_badge">Fast and easy</span>
+            <h2>How it works</h2>
           </div>
           <div class="row">
             <div class="col-md-4">
@@ -384,12 +368,12 @@
                     <img src="{{ Vite::asset('resources/images/howstep1.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Скачать Приложение</h3>
+                    <h3>Download App</h3>
                     <ul class="social">
                       <li><a href="#"><i class="icofont-brand-android-robot"></i></a></li>
                       <li><a href="#"><i class="icofont-brand-apple"></i></a></li>
                     </ul>
-                    <p>Скачайте приложениея для <br> Android, Ipad &
+                    <p>Download app for <br> Android, Ipad &
                       Iphone</p>
                   </div>
                 </div>
@@ -403,9 +387,9 @@
                     <img src="{{ Vite::asset('resources/images/howstep2.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Зарегистрироваться</h3>
+                    <h3>Registration</h3>
                     <span class="tag_text"></span>
-                    <p>Создайте профиль <br>бесплатно
+                    <p>Create profile <br>free
                       </p>
                   </div>
                 </div>
@@ -419,9 +403,9 @@
                     <img src="{{ Vite::asset('resources/images/howstep3.png') }}" alt="image">
                   </div>
                   <div class="text">
-                    <h3>Наслаждайтесь</h3>
+                    <h3>Enjoy</h3>
                     <span class="tag_text"></span>
-                    <p>Тренеруйте онлайн <br> и зарабатывайте!</p>
+                    <p>Train online <br> and earn!</p>
                   </div>
                 </div>
                 <span class="step">03</span>
@@ -430,7 +414,7 @@
           </div>
           <div class="text-center">
             <div class="btn_block">
-              <a href="#" class="btn puprple_btn ml-0">Начни сейчас</a>
+              <a href="#" class="btn puprple_btn ml-0">Start now</a>
               <div class="btn_bottom"></div>
             </div>
           </div>
@@ -450,7 +434,7 @@
             <div class="sidebar_text" data-aos="fade-up" data-aos-duration="1500">
               <div class="section_title text-left">
                 <span class="title_badge">Feedback</span>
-                  <h2><span>Отзывы наших клиентов</span></h2>
+                  <h2><span>Reviews from Our Clients</span></h2>
               </div>
               <div class="google_rating">
                 <div class="star">
@@ -475,8 +459,8 @@
                   <div class="avtar">
                     <img src="{{ Vite::asset('resources/images/coach-man-review-2.png') }}" alt="image">
                     <div class="text">
-                      <h3>Артем П.</h3>
-                      <span>Зал: CrossFit Dynamics</span>
+                      <h3>Edward Johnson</h3>
+                      <span>CrossFit Dynamics</span>
                     </div>
                   </div>
                   <div class="star">
@@ -487,18 +471,18 @@
                     <span><i class="icofont-star"></i></span>
                   </div>
                 </div>
-                <p>"LETS - мое новое фитнес-вдохновение! Я, как тренер,
-                    могу создавать уникальные тренировочные программы и
-                    следить за каждым шагом моих клиентов. Они достигают
-                    результатов, и я рад, что могу быть частью этого успеха."</p>
+                <p>"LETS is my new fitness inspiration! As a coach,
+                    I can create unique training programs and
+                    track every step of my clients. They achieve
+                    results, and I'm glad to be part of this success."</p>
               </div>
               <div class="review_block" data-aos="fade-up" data-aos-duration="1500">
                 <div class="coustomer_info">
                   <div class="avtar">
                     <img src="{{ Vite::asset('resources/images/coach-woman-review-2.png') }}" alt="image">
                     <div class="text">
-                      <h3>Анна К.</h3>
-                      <span>Зал: FitZone</span>
+                      <h3>Ann Weber</h3>
+                      <span>FitZone</span>
                     </div>
                   </div>
                   <div class="star">
@@ -509,17 +493,17 @@
                     <span><i class="icofont-star"></i></span>
                   </div>
                 </div>
-                <p>"LETS преобразил мою тренерскую практику!
-                    Спасибо за удивительные инструменты планирования,
-                    мотивации и отслеживания прогресса. Мои клиенты более мотивированы,
-                    а я могу легко следить за их успехами. Просто великолепно!"</p>
+                <p>"LETS has transformed my coaching practice!
+                    Thank you for the amazing planning,
+                    motivation, and progress tracking tools. My clients are more motivated,
+                    and I can easily track their successes. Just superb!"</p>
               </div>
                 <div class="review_block" data-aos="fade-up" data-aos-duration="1500">
                     <div class="coustomer_info">
                         <div class="avtar">
                             <img src="{{ Vite::asset('resources/images/coach-woman-review-1.png') }}" alt="image">
                             <div class="text">
-                                <h3>Екатерина С.</h3>
+                                <h3>Susan B.</h3>
                                 <span>Зал: Wellness Hub</span>
                             </div>
                         </div>
@@ -531,18 +515,18 @@
                             <span><i class="icofont-star"></i></span>
                         </div>
                     </div>
-                    <p>"Планы питания в LETS - настоящая находка!
-                        Мои клиенты оценили разнообразие и вкусные рецепты.
-                        Отслеживание прогресса делает тренировки еще более продуктивными.
-                        Спасибо за отличное приложение!"</p>
+                    <p>"The meal plans in LETS are a real find!
+                        My clients have appreciated the variety and delicious recipes.
+                        Progress tracking makes workouts even more productive.
+                        Thanks for the excellent app!"</p>
                 </div>
               <div class="review_block" data-aos="fade-up" data-aos-duration="1500">
                 <div class="coustomer_info">
                   <div class="avtar">
                     <img src="{{ Vite::asset('resources/images/coach-man-review-1.png') }}" alt="image">
                     <div class="text">
-                      <h3>Максим Т.</h3>
-                      <span>Зал: PowerGym</span>
+                      <h3>Robert K.</h3>
+                      <span>PowerGym</span>
                     </div>
                   </div>
                   <div class="star">
@@ -553,9 +537,10 @@
                     <span><i class="icofont-star"></i></span>
                   </div>
                 </div>
-                <p>"LETS - мой надежный союзник в тренерском деле.
-                    Оплата тренировок стала проще, клиенты в восторге
-                    от персонализированных планов и мотивации. Успех и комфорт в одном приложении!"</p>
+                <p>
+                    "LETS is my reliable ally in coaching.
+                    Payment for workouts has become easier, clients are delighted
+                    with personalized plans and motivation. Success and comfort in one app!"</p>
               </div>
             </div>
           </div>
@@ -842,8 +827,8 @@
       <!-- container start -->
       <div class="container-fluid">
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-          <span class="title_badge">Демонстрация</span>
-          <h2>Приветливый <span>интерфейс</span> приложения</h2>
+          <span class="title_badge">Demonstration</span>
+          <h2>Friendly <span>interface</span> of the application</h2>
         </div>
 
         <!-- screen slider start -->
@@ -885,7 +870,7 @@
       </div>
       <!-- container end -->
     </section>
-    <!-- Beautifull-interface-Section end -->
+    <!-- Beautiful-interface-Section end -->
 
 
     <!-- Text List flow Section Start -->
@@ -1023,7 +1008,7 @@
                 </form>
               </div>
               <ul class="contact_info">
-                <li><a href="mailto:">support@xsort.md</a></li>
+                <li><a href="mailto:">test@test.md</a></li>
                 <li><a href="tel: ">+1-900-123 4567</a></li>
               </ul>
               <ul class="social_media">
@@ -1060,16 +1045,16 @@
               <p>© Copyrights 2023. All rights reserved.</p>
             </div>
             <ul class="links">
-              <li><a href="#home">Возможности</a></li>
-              <li><a href="#about">О нас</a></li>
-              <li><a href="#text-list">Почему LETS</a></li>
-              <li><a href="#how-it-works">Как это работает</a></li>
-              <li><a href="#reviews">Отзывы</a></li>
-                <li><a href="#interface">Интерфейс</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#text-list">Why LETS</a></li>
+              <li><a href="#how-it-works">How it works</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#interface">Interface</a></li>
 
             </ul>
             <div class="design_by">
-              <p>Crafted by <a href="https://xsort.md/" target="blank">Xsort</a></p>
+              <p>Crafted by <a href="http://test.md/" target="blank">Test</a></p>
             </div>
           </div>
         </div>
@@ -1109,8 +1094,8 @@
   <!-- Typed Js Cdn -->
   <!-- main-js-Link -->
 @vite([
+              'resources/js/jquery.js',
              'resources/js/app.js',
-             'resources/js/jquery.js',
              'resources/js/jquery.magnific-popup.min.js',
               'resources/js/owl.carousel.min.js',
               'resources/js/bootstrap.js',
